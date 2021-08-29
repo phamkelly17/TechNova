@@ -1,0 +1,14 @@
+#form-container{
+    position:absolute;
+    top: 70%;
+    left: 12%;
+}
+#chat-form {
+    width:fit-content;
+    height:fit-content;
+}
+
+#last-message{
+    position:absolute;
+    left: 12%;
+}

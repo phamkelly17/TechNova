@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cura - chat</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="chat.css">
   </head>
   <body>
     <div id="name">
@@ -16,10 +17,13 @@
 
     <div id="messages">
       <p id="last-message">hey there! i'd love to connect</p>
-    </div>
-
-    <div>
-      <input type="text" placeholder="send a message!" />
+      <br>
+      <div id = "form-container">
+        <form id = "chat-form">
+          <input type="text" id="text-message">
+          <input type="submit" value = "send message!">
+        </form>
+      </div>
     </div>
   </body>
 </html>
